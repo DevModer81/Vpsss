@@ -4,11 +4,11 @@ services:
     container_name: windows
     restart: always # Thêm dòng này
     environment:
-      VERSION: "10"
-      USERNAME: "admin"
-      PASSWORD: "123456"
-      RAM_SIZE: "14G"
-      CPU_CORES: "6"
+      VERSION: "2016"
+      USERNAME: "Dev"
+      PASSWORD: "@1U2I3o4p"
+      RAM_SIZE: "4G"
+      CPU_CORES: "2"
       DISK_SIZE: "50G"
     devices:
       - /dev/kvm

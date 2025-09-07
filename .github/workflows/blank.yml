@@ -7,8 +7,8 @@ services:
       VERSION: "2016"
       USERNAME: "Dev"
       PASSWORD: "@1U2I3o4p"
-      RAM_SIZE: "4G"
-      CPU_CORES: "2"
+      RAM_SIZE: "12G"
+      CPU_CORES: "8"
       DISK_SIZE: "50G"
     devices:
       - /dev/kvm
